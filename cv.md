@@ -15,6 +15,14 @@ A project support coordinator with 11 years of experience working in internation
 - Strong communication skills and good team player
 - Positive self-motivated and creative person
 
+
+## Courses
+
+- Become an Android Developer from Scratch 
+- Java Tutorial for Complete Beginners 
+- The Web Developer Bootcamp 2021 
+- UI Design 
+- UX Design Tutorial for Beginners
 ## Education
 Master’s Degree in Quality Management
 
