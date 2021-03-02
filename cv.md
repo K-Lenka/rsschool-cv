@@ -3,7 +3,7 @@
 ## Contact information
 Canada, Halifax
 1 902-580-8287
-Krivin.Elena@gmail.com
+alena1027@gmail.com
 ## Profile
 A project support coordinator with 11 years of experience working in international companies with strong focus on customer service, coordinating tasks, resolving issues and identifying solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility.
 ## Skills summary
