@@ -1,16 +1,19 @@
-.photo {
+img {
     width: 150px;
-    margin: calc(10%/6);
+    margin: 0 auto;
 }
 
 nav {
     font-family: 'Raleway', sans-serif;
     font-size: 1.5em;
     text-transform: uppercase;
-    border-bottom: 2px solid #f1f1f1;
-    width: 30%;
-    margin-left: calc(10%/6);
     padding: 1.2em 0;
+    margin: 0 auto;
+    width: 50%;
+}
+
+ul {    
+    list-style: inside;
 }
 
 li {
@@ -19,4 +22,21 @@ li {
 
 .contactInfo{
     list-style-type: square;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+    background-color: #98c1d9;
+    color: #fff;
+}
+
+#wrap {
+    margin: 0 auto;
+    width: 50%;
+}
+
+body {
+    background-color: #f0efeb;
 }
