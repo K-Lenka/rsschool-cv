@@ -1,12 +1,12 @@
 # Elena Krivin
-## Contact information
+## Contact Information
 - **address:** Canada, Halifax
 - **phone:** 1 902-580-8287
 - **email:** alena1027@gmail.com
 - **github:** [Elena](https://github.com/K-Lenka)
 ## Profile
 A self-motivated web developer keen on creating new products with strong focus on coordinating tasks, resolving issues and implementing solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility
-## Skills summary
+## Skills Summary
 - Technical skills: HTML, CSS, JavaScript, Sass, Bootstrap, 
 jQuery, Git, Node.js, Webpack, Java, Git, SQL, React, Figma, Android Studio, JSON
 - Experienced with different software and CRM systems: E-Automate, Project Spec, Scala, HubSpot
@@ -16,7 +16,7 @@ jQuery, Git, Node.js, Webpack, Java, Git, SQL, React, Figma, Android Studio, JSO
 - Strong communication skills and good team player
 - Positive self-motivated and creative person
 
-## Code example
+## Code Example
 
 ```
 var OrderPeople = function(people){
@@ -45,5 +45,5 @@ Specialty: Quality management, engineering and technology
 
 
 ## Languages
-- Russian *fluent*
-- English *fluent*
+- Russian *native*
+- English *fluent* (C1-C2)
