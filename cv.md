@@ -29,6 +29,7 @@ var OrderPeople = function(people){
 - Become an Android Developer from Scratch 
 - Java Tutorial for Complete Beginners 
 - The Web Developer Bootcamp 2021 
+- CS50 lectures
 - UI Design 
 - UX Design Tutorial for Beginners
 ## Education
