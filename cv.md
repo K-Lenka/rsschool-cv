@@ -5,7 +5,7 @@
 - **email:** alena1027@gmail.com
 - **github:** [Elena](https://github.com/K-Lenka)
 ## Profile
-A project support coordinator with 11 years of experience working in international companies with strong focus on customer service, coordinating tasks, resolving issues and identifying solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility.
+A self-motivated web developer keen on creating new products with strong focus on coordinating tasks, resolving issues and implementing solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility
 ## Skills summary
 - Technical skills: Figma, HTML, CSS, JavaScript, Java, Git, SQL, Android Studio, JSON API
 - Experienced with different software and CRM systems: E-Automate, Project Spec, Scala, HubSpot
