@@ -23,7 +23,13 @@ var OrderPeople = function(people){
   return  people.sort((x,y) => x.age - y.age);
 }
 ```
+## Work Experience
 
+*FINANCE & ADMIN ASSISTAN*\
+OFFICE INTERIORS. Dartmouth, NS  |  Jun 2020 – end of contract Nov 2020
+
+*FURNITURE SALES COORDINATOR*\
+OFFICE INTERIORS. Dartmouth, NS  |  Sep 2019 – Jun 2020
 ## Courses
 
 - Become an Android Developer from Scratch 
