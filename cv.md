@@ -33,7 +33,10 @@ var OrderPeople = function(people){
 - UI Design 
 - UX Design Tutorial for Beginners
 ## Education
-Master’s Degree in Quality Management
+Master’s Degree in Quality Management\
+Korolev Institute Of Management, Economics And Sociology. Korolev, Russia\
+Specialty: Quality management, engineering and technology
+
 
 ## Languages
 - Russian *fluent*
