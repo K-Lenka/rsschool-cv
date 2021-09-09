@@ -16,6 +16,13 @@ jQuery, Git, Node.js, Webpack, Java, Git, SQL, React, Figma, Android Studio, JSO
 - Strong communication skills and good team player
 - Positive self-motivated and creative person
 
+## Code example
+
+```
+var OrderPeople = function(people){
+  return  people.sort((x,y) => x.age - y.age);
+}
+```
 
 ## Courses
 
