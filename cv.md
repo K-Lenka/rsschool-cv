@@ -1,9 +1,9 @@
-# My CV
 # Elena Krivin
 ## Contact information
-Canada, Halifax
-1 902-580-8287
-alena1027@gmail.com
+- **address:** Canada, Halifax
+- **phone:** 1 902-580-8287
+- **email:** alena1027@gmail.com
+- **github:** [Elena](https://github.com/K-Lenka)
 ## Profile
 A project support coordinator with 11 years of experience working in international companies with strong focus on customer service, coordinating tasks, resolving issues and identifying solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility.
 ## Skills summary
