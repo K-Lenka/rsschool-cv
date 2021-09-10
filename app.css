@@ -382,14 +382,6 @@ ul {
     max-width: 350px;
 }
 
-.btn__downlow {
-    font-family: 'Barlow';
-    font-weight: 700;
-    font-size: 1rem;
-    color: white;
-    text-transform: uppercase;
-}
-
 .skills__content {
     justify-content: flex-start;
 }
