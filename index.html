@@ -41,6 +41,9 @@
         <div class="content content__cover">
             <div class="block__row">
                 <div class="card__intro card__col">
+                    <div class="intro__photo">
+
+                    </div>
                     <div class="intro__column">
                         <h3 class="intro__title">Elena Krivin</h3>
                         <hr>
@@ -63,7 +66,7 @@
                         <h4 class="info__title">Hello</h4>
                         <p class="info__subtitle">Here's who I am & what I do</p>
                         <div class="info__buttons">
-                            <button class="buttons btn_colored btn__prime_color"><a href="#" class="btn__link left__btn">RESUME</a></button>
+                            <button class="buttons btn_colored btn__prime_color"><a href="#resume" class="btn__link left__btn">RESUME</a></button>
                             <button class="buttons btn"><a href="#" class="btn__link right__btn">PROJECTS</a></button>
                         </div>
                         <p class="info__text">
@@ -75,170 +78,144 @@
                 </div>
             </div>
         </div>
-        <div class="main__background">
+        <div class="content__cover">
             <main class="container__center">
                 <div class="block__resume">
                     <div class="flex col">
                         <div class="header__title">
                             <span class="square square__lrg"></span>
-                            <h2 class="section__title" id="resume">Resume</h2>
+                            <h2 class="section__title" id="contact">Resume</h2>
                         </div>
-
-                        <section class="flex col experience">
+                        <section class="column contact__info">
+                            <div class="flex section__name">
+                                <div class="section__subtitle">Contact Information</div>
+                            </div>
+                            <div class="flex row__box row__card skills__content">
+                                <div class="skills__box">
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>address:</b> Canada, Halifax</span></div>
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>phone:</b>  1 902-580-8287</span></div>
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>email: </b>alena1027@gmail.com</span></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="flex col experience" id="resume">
                             <div class="flex row section__name">
                                 <div class="section__subtitle">Experience</div>
+                            </div>
+                            <div class="flex row__box row__card">
+                                <div class="job__data">
+                                    <ul class="flex col">
+                                        <li class="li" id="year">Jun 2020 - Nov 2020</li>
+                                        <li class="li" id="position">Finance & admin assistant</li>
+                                        <li class="li company">Office Interiors</li>
+                                        <li class="li company">Dartmouth, NS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flex row__box row__card">
+                                <div class="job__data">
+                                    <ul class="flex col">
+                                        <li class="li" id="year">Sep 2019 - Jun 2020</li>
+                                        <li class="li" id="position">Furniture Sales Coordinator</li>
+                                        <li class="li company">Office Interiors</li>
+                                        <li class="li company">Dartmouth, NS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <section class="column education">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Education</div>
+                                </div>
+                                <div class="flex row__box row__card">
+                                    <div class="job__data">
+                                        <ul class="flex col">
+                                            <li class="li" id="year">2003 - 2008</li>
+                                            <li class="li" id="position">Korolev Institute Of Management, Economics And Sociology</li>
+                                            <li class="li company">Master’s Degree in Quality Management</li>
+                                            <li class="li company">Korolev, Russia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="column education">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Courses</div>
+                                </div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>The Web Developer Bootcamp 2021</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>CS50 lectures</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>UX/UI Design</span></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="column code">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Code Example</div>
+                                </div>
+                                <div class="flex row__box row__card">
+                                    <div class="job__data">
+                                        <code>var OrderPeople = function(people){
+                                            return  people.sort((x,y) => x.age - y.age);
+                                          }</code>
+                                    </div>
+                                </div>
+                            </section>
 
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">Job position</li>
-                                        <li class="li company">Company Name</li>
-                                        <li class="li company">Company Location</li>
-                                    </ul>
+                            <section class="column skillset">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Professional skillset</div>
                                 </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">Job position</li>
-                                        <li class="li company">Company Name</li>
-                                        <li class="li company">Company Location</li>
-                                    </ul>
-                                </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">Job position</li>
-                                        <li class="li company">Company Name</li>
-                                        <li class="li company">Company Location</li>
-                                    </ul>
-                                </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">Job position</li>
-                                        <li class="li company">Company Name</li>
-                                        <li class="li company">Company Location</li>
-                                    </ul>
-                                </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                        </section>
-                        <section class="column education">
-                            <div class="flex section__name">
-                                <div class="section__subtitle">Courses</div>
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">Job position</li>
-                                        <li class="li company">Company Name</li>
-                                        <li class="li company">Company Location</li>
-                                    </ul>
-                                </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                        </section>
-                        <section class="column education">
-                            <div class="flex section__name">
-                                <div class="section__subtitle">Education</div>
-                            </div>
-                            <div class="flex row__box row__card">
-                                <div class="job__data">
-                                    <ul class="flex col">
-                                        <li class="li" id="year">2019 - Present</li>
-                                        <li class="li" id="position">University name</li>
-                                        <li class="li company">Degree Level</li>
-                                        <li class="li company">University Location</li>
-                                    </ul>
-                                </div>
-                                <div class="job__description">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ab earum consequuntur quo, ipsum, velit eius amet exercitationem voluptate quia facere reiciendis perferendis molestiae labore rerum similique provident qui praesentium! Impedit repudiandae
-                                    rerum non autem, asperiores deserunt incidunt omnis odio.
-                                </div>
-                            </div>
-                        </section>
-                        <section class="column skillset">
-                            <div class="flex section__name">
-                                <div class="section__subtitle">Professional skillset</div>
-                            </div>
-                            <div class="flex row__box row__card skills__content">
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>HTML</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>CSS</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>JavaScript</span></div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>HTML</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>CSS</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>JavaScript</span></div>
 
-                                </div>
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Sass</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Bootstrap</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>jQuery</span></div>
-                                </div>
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Sass</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Bootstrap</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>jQuery</span></div>
+                                    </div>
 
 
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Git</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Node.js</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Webpack</span></div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Git</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Node.js</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Webpack</span></div>
 
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>React</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Figma</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>SQL</span></div>
+                                    </div>
                                 </div>
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>React</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Figma</span></div>
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>MySQL</span></div>
+                            </section>
+                            <section class="column languages">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Languages</div>
                                 </div>
-                            </div>
-                        </section>
-                        <section class="column languages">
-                            <div class="flex section__name">
-                                <div class="section__subtitle">Languages</div>
-                            </div>
-                            <div class="flex row__box row__card skills__content">
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>English</span></div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>English</span></div>
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Russin</span></div>
+                                    </div>
                                 </div>
-                                <div class="skillsbox">
-                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span>Russin</span></div>
-                                </div>
-                            </div>
-                        </section>
+                            </section>
                     </div>
                 </div>
             </main>
         </div>
         <footer>
-            <div class="container" id="contact">
+            <div class="container">
                 <div class="footer__row">
                     <div>
-                        © 2023 by Elena Krivin
+                        © 2021 by Elena Krivin
                     </div>
-
                     <div class="nav__row">
                         <div class="call nav__column">
                             <div class="action">Call</div>
@@ -250,7 +227,7 @@
                             <div class="action">Write</div>
                             <ul class="navigation">
                                 <li class="contacts">
-                                    <a class="email" href="mailto:Krivin.Elena@gmail.com">Krivin.Elena@gmail.com</a>
+                                    <a class="email" href="mailto:Krivin.Elena@gmail.com">alena1027@gmail.com</a>
 
                                 </li>
                             </ul>
@@ -259,10 +236,10 @@
                             <div class="action">Follow</div>
                             <ul class="navigation">
                                 <li class="">
-                                    <a href="#"><img class="icon" src="./img/png/social_github_icon.png" alt="github logo"></a>
+                                    <a href="#"><img class="icon" src="./img_cv/png/social_github_icon.png" alt="github logo"></a>
                                 </li>
                                 <li class="">
-                                    <a href="#" class=""><img class="icon" src="./img/png/linkedin_icon.png" alt="linkedin logo"></a>
+                                    <a href="#" class=""><img class="icon" src="./img_cv/png/linkedin_icon.png" alt="linkedin logo"></a>
                                 </li>
                             </ul>
                         </div>
