@@ -290,6 +290,10 @@ ul {
     align-items: baseline;
 }
 
+.school {
+    width: 100px;
+}
+
 .nav__column {
     display: flex;
     flex-direction: column;
