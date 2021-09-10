@@ -311,7 +311,9 @@ ul {
 /* Resume start*/
 
 .main__background {
-    background-color: #e6dace;
+    background-image: url(./img_cv/png/cover.png);
+    background-size: 42%;
+    background-repeat: repeat-y;
 }
 
 .container__center {
