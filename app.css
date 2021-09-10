@@ -266,7 +266,7 @@ ul {
 
 .left__btn {
     color: rgb(255, 255, 255);
-    padding: 8px 9px;
+    padding: 8px 29px;
 }
 
 .right__btn {
@@ -402,13 +402,13 @@ ul {
     padding: 0 0 15px 0;
 }
 
-#year {
+.year {
     font-size: 1.3rem;
     font-weight: 800;
     color: #1737eb;
 }
 
-#position {
+.position {
     font-size: 1.2rem;
     text-transform: uppercase;
 }
