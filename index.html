@@ -5,94 +5,256 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="app.css">
-    <title>MY CV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./app.css">
+    <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <title>Elena Krivin</title>
 </head>
 
 <body>
-    <div id="wrap">
-        <main>
-            <header>
+    <div class="wrapper">
+        <header>
+            <div class="header__sticky">
+                <div class="container">
+                    <nav class="header__nav">
+                        <div class="header__title">
+                            <span class="square square__mdm"></span>
+                            <h1 class="name">Elena Krivin &nbsp;</h1>
+                            <span class="job__title"> / WEB DEVELOPER</span>
+                        </div>
+                        <div class="header__nav_list">
+                            <ul class="header__navigation navigation">
+                                <li class="nav__item"><a href="./index.html" class="nav__link">ABOUT ME</a></li>
+                                <li class="nav__item"><a href="#resume" class="nav__link">RESUME</a></li>
+                                <li class="nav__item"><a href="#contact" class="nav__link">CONTACT</a></li>
+                            </ul>
+                        </div>
+                    </nav>
 
-                <nav>
-                    <h1>Elena Krivina</h1>
-                </nav>
+                </div>
+            </div>
 
-            </header>
+        </header>
 
-            <!-- <img src="img_cv/IMG_20200728_195233.jpg" alt="it's me"> -->
+        <div class="content content__cover">
+            <div class="block__row">
+                <div class="card__intro card__col">
+                    <div class="intro__photo">
+                        <img id="my__photo" src="./img_cv/png/me.PNG" alt="photo">
+                    </div>
+                    <div class="intro__column">
+                        <h3 class="intro__title">Elena Krivin</h3>
+                        <hr>
+                        <p class="intro__subtitle">WEB DEVELOPER</p>
+                    </div>
+                    <div class="bottom__row">
+                        <ul class="navigation">
+                            <li class="">
+                                <a href="#"><img class="icon" src="./img_cv/png/social_github_icon.png" alt="github logo"></a>
+                            </li>
+                            <li class="">
+                                <a href="#" class=""><img class="icon" src="./img_cv/png/linkedin_icon.png" alt="linkedin logo"></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
 
-            <section>
-                <h2>Contact information</h2>
+                <div class="card__info card__col">
+                    <div class="info__column">
+                        <h4 class="info__title">Hello</h4>
+                        <p class="info__subtitle">Here's who I am & what I do</p>
+                        <div class="info__buttons">
+                            <button class="buttons btn_colored btn__prime_color"><a href="#resume" class="btn__link left__btn">RESUME</a></button>
+                            <button class="buttons btn"><a href="#" class="btn__link right__btn">PROJECTS</a></button>
+                        </div>
+                        <p class="info__text">
+                            I am a self-taught Web Developer. In 2020 I decided to learn new skills that will give me more independancy, flexability, creativity and satisfaction with my work. I tried out online coding courses and ended up loving using language in such a tangible
+                            way, building websites and invest time into learning, I believe it's the best investment in my life. Thus began my journey into teaching myself coding with online resources, courses and projects. Learning to code is a life-long
+                            journey and I am in!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content__cover">
+            <main class="container__center">
+                <div class="block__resume">
+                    <div class="flex col">
+                        <div class="header__title">
+                            <span class="square square__lrg"></span>
+                            <h2 class="section__title" id="contact">Resume</h2>
+                        </div>
+                        <section class="column contact__info">
+                            <div class="flex section__name">
+                                <div class="section__subtitle">Contact Information</div>
+                            </div>
+                            <div class="flex row__box row__card skills__content">
+                                <div class="skills__box">
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>address:</b> Canada, Halifax</span></div>
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>phone:</b>  1 902-580-8287</span></div>
+                                    <div class="flex skill__pair"><span class="square square__sml"></span> <span> <b>email: </b>alena1027@gmail.com</span></div>
+                                </div>
+                            </div>
+                        </section>
+                        <section class="flex col experience" id="resume">
+                            <div class="flex row section__name">
+                                <div class="section__subtitle">Experience</div>
+                            </div>
+                            <div class="flex row__box row__card">
+                                <div class="job__data">
+                                    <ul class="flex col">
+                                        <li class="li" id="year">Jun 2020 - Nov 2020</li>
+                                        <li class="li" id="position">Finance & admin assistant</li>
+                                        <li class="li company">Office Interiors</li>
+                                        <li class="li company">Dartmouth, NS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="flex row__box row__card">
+                                <div class="job__data">
+                                    <ul class="flex col">
+                                        <li class="li" id="year">Sep 2019 - Jun 2020</li>
+                                        <li class="li" id="position">Furniture Sales Coordinator</li>
+                                        <li class="li company">Office Interiors</li>
+                                        <li class="li company">Dartmouth, NS</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <section class="column education">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Education</div>
+                                </div>
+                                <div class="flex row__box row__card">
+                                    <div class="job__data">
+                                        <ul class="flex col">
+                                            <li class="li" id="year">2003 - 2008</li>
+                                            <li class="li" id="position">Korolev Institute Of Management, Economics And Sociology</li>
+                                            <li class="li company">Master’s Degree in Quality Management</li>
+                                            <li class="li company">Korolev, Russia</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="column education">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Courses</div>
+                                </div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>The Web Developer Bootcamp 2021</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>CS50 lectures</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>UX/UI Design</span></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="column code">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Code Example</div>
+                                </div>
+                                <div class="flex row__box row__card">
+                                    <div class="job__data">
+                                        <code>var OrderPeople = function(people){
+                                            return  people.sort((x,y) => x.age - y.age);
+                                          }</code>
+                                    </div>
+                                </div>
+                            </section>
 
-                <ul>
-                    <li class="contactInfo">Canada, Eastern Passage</li>
-                    <li class="contactInfo">1 902-580-8287</li>
-                    <li class="contactInfo"><a href="mailto:alena1027@gmail.com">alena1027@gmail.com</a></li>
-                    <li class="contactInfo"><a href="https://github.com/K-Lenka">github</a></li>
-                    <li class="contactInfo">
-                        <a href="https://www.linkedin.com/in/elena-krivin/">linkedin</a>
-                    </li>
-                </ul>
-            </section>
-            <main>
-                <section>
-                    <h2>Profile</h2>
+                            <section class="column skillset">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Professional skillset</div>
+                                </div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>HTML</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>CSS</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>JavaScript</span></div>
 
-                    <p>A self-motivated web developer keen on creating new products with strong focus on coordinating tasks, resolving issues and implementing solutions. Passionate about efficiently working in a cost effective way while maintaining flexibility.<br>                        Passionate about efficiently working in a cost effective way while maintaining flexibility.
-                    </p>
-                </section>
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Sass</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Bootstrap</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>jQuery</span></div>
+                                    </div>
 
-                <section>
-                    <h2>Skills summary</h2>
-                    <ul>
-                        <li> <em>Technical skills:</em> Figma, HTML, CSS, JavaScript, Java, Git, SQL, Android Studio, JSON API
-                        </li>
-                        <li>Experienced with different software and CRM systems: E-Automate, Project Spec, Scala, HubSpot
-                        </li>
-                        <li>Proficient in MS Office suite and Office 365: Excel, Word, PowerPoint, SharePoint, Access Outlook, Teams
-                        </li>
-                        <li>Able to multitask in a fast paced environment</li>
-                        <li>Ability to process large array of information in an accurate and fast manner</li>
-                        <li>Strong communication skills and good team player</li>
-                        <li>Positive self-motivated and creative person</li>
-                    </ul>
-                </section>
 
-                <section>
-                    <h3>Courses</h3>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Git</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Node.js</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Webpack</span></div>
 
-                    <ul>
-                        <li><b>SkillsForHire.</b> Web design & development </li>
-                        <li><b>RS School.</b>JS/Front-end developer</li>
-                        <li><b>Udemy.</b> The Web Developer Bootcamp 2021</li>
-                        <li><b>Udemy.</b>Become an Android Developer from Scratch</li>
-                        <li><b>Udemy.</b>Java Tutorial for Complete Beginners</li>
-                        <li><b>Udemy.</b>UI Design</li>
-                        <li><b>Udemy.</b>UX Design Tutorial for Beginners</li>
-                    </ul>
-                </section>
-
-                <article>
-                    <h2>Education</h2>
-
-                    <p>Master’s Degree in Quality Management</p>
-                </article>
-
-                <article>
-                    <h2>Languages</h2>
-                    <ul>
-                        <li>Russian fluent</li>
-                        <li>English fluent</li>
-                    </ul>
-                </article>
-
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>React</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Figma</span></div>
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>SQL</span></div>
+                                    </div>
+                                </div>
+                            </section>
+                            <section class="column languages">
+                                <div class="flex section__name">
+                                    <div class="section__subtitle">Languages</div>
+                                </div>
+                                <div class="flex row__box row__card skills__content">
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>English</span></div>
+                                    </div>
+                                    <div class="skills__box">
+                                        <div class="flex skill__pair"><span class="square square__sml"></span> <span>Russin</span></div>
+                                    </div>
+                                </div>
+                            </section>
+                    </div>
+                </div>
             </main>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="footer__row">
+                    <div>
+                        <img class="school" src="./img_cv/svg/rs_school_logo.svg" alt="RS School logo">
+                    </div>
+                    <div>
+                        © 2021 by Elena Krivin
+                    </div>
+                    <div class="nav__row">
+                        <div class="call nav__column">
+                            <div class="action">Call</div>
+                            <ul class="navigation">
+                                <li class="contacts">1 902-580-8287</li>
+                            </ul>
+                        </div>
+                        <div class="write nav__column">
+                            <div class="action">Write</div>
+                            <ul class="navigation">
+                                <li class="contacts">
+                                    <a class="email" href="mailto:Krivin.Elena@gmail.com">alena1027@gmail.com</a>
 
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="follow nav__column">
+                            <div class="action">Follow</div>
+                            <ul class="navigation">
+                                <li class="">
+                                    <a href="#"><img class="icon" src="./img_cv/png/social_github_icon.png" alt="github logo"></a>
+                                </li>
+                                <li class="">
+                                    <a href="#" class=""><img class="icon" src="./img_cv/png/linkedin_icon.png" alt="linkedin logo"></a>
+                                </li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </footer>
     </div>
 
-    <footer>Posted March 2,2021 by Elena Krivina</footer>
+
 </body>
 
 </html>
