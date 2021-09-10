@@ -30,6 +30,7 @@ a {
 }
 
 ul {
+    list-style: none;
     margin: 0;
     padding: 0;
 }
@@ -304,4 +305,115 @@ ul {
 
 .contacts {
     padding-top: 11px;
+}
+
+
+/* Resume start*/
+
+.main__background {
+    background-color: #e6dace;
+}
+
+.container__center {
+    margin: 0 auto;
+}
+
+.block__resume {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.section__title {
+    font-size: 2.5rem;
+}
+
+.section__subtitle {
+    font-size: 1.5rem;
+    font-weight: 800;
+    letter-spacing: 0.2px;
+}
+
+.square__lrg {
+    height: 24px;
+    width: 24px;
+}
+
+.square__sml {
+    height: 13px;
+    width: 13px;
+}
+
+.flex {
+    display: flex;
+}
+
+.row {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.col {
+    flex-direction: column;
+}
+
+.row__box {
+    background-color: rgb(255, 255, 255);
+    box-shadow: -10px 9px 12px 2px rgb(173 173 173 / 37%);
+    margin-top: 44px;
+    justify-content: space-between;
+}
+
+.row__card {
+    padding: 39px;
+}
+
+.section__name {
+    padding: 70px 0 16px;
+}
+
+.job__data {
+    flex: 1;
+}
+
+.job__description {
+    flex: 1;
+    max-width: 350px;
+}
+
+.btn__downlow {
+    font-family: 'Barlow';
+    font-weight: 700;
+    font-size: 1rem;
+    color: white;
+    text-transform: uppercase;
+}
+
+.skills__content {
+    justify-content: flex-start;
+}
+
+.skillsbox {
+    padding: 50px 47px 50px 36px;
+}
+
+.skill__pair {
+    padding: 10px 0;
+    align-items: baseline;
+}
+
+.li {
+    padding: 0 0 15px 0;
+}
+
+#year {
+    font-size: 1.3rem;
+    font-weight: 800;
+    color: #1737eb;
+}
+
+#position {
+    font-size: 1.2rem;
+    text-transform: uppercase;
 }
