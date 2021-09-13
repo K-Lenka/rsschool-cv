@@ -10,6 +10,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;500;600;700;800;900&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./app.css">
     <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.9/highlight.min.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
     <title>Elena Krivin</title>
 </head>
 
@@ -165,9 +170,8 @@
                                 </div>
                                 <div class="flex row__box row__card">
                                     <div class="job__data">
-                                        <code>var OrderPeople = function(people){
-                                            return  people.sort((x,y) => x.age - y.age);
-                                          }</code>
+                                        <pre><code>var OrderPeople = function(people){return  people.sort((x,y) => x.age - y.age);}</code></pre>
+
                                     </div>
                                 </div>
                             </section>
