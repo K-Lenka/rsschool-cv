@@ -1,15 +1,14 @@
 body {
     font-family: 'Barlow', 'Open Sans', sans-serif;
     height: 100%;
+    margin: 0;
 }
 
 hr {
     width: 53px;
     display: block;
-    height: 5px;
     border: 1px solid rgb(45 125 242);
     border-radius: 3px;
-    overflow: hidden;
 }
 
 h1,
@@ -417,4 +416,15 @@ code {
     background-color: #f7eee6;
     border-radius: 3px;
     padding: 14px 8px;
+}
+
+.video__cover {
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.project__descr {
+    font-size: 1.2rem;
+    font-weight: 500;
+    letter-spacing: 0.6px;
 }
