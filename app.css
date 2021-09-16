@@ -1,6 +1,7 @@
 body {
     font-family: 'Barlow', 'Open Sans', sans-serif;
     height: 100%;
+    margin: 0;
 }
 
 hr {
@@ -417,4 +418,9 @@ code {
     background-color: #f7eee6;
     border-radius: 3px;
     padding: 14px 8px;
+}
+
+.video__cover {
+    max-width: 300px;
+    max-height: 200px;
 }
